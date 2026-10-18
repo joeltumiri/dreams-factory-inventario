@@ -1,0 +1,36 @@
+# IDE
+.idea/
+.vscode/
+nbproject/
+.buildpath
+.project
+.settings/
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Dependencias y herramientas
+/vendor/
+composer.phar
+phpunit.phar
+/phpunit.xml
+tests/_output/*
+tests/_support/_generated
+/.vagrant
+
+# Secretos y entorno local
+.env
+reset_pass.sql
+config/*.local.php
+
+# Archivos generados
+/runtime/*
+!/runtime/.gitkeep
+/web/assets/*
+!/web/assets/.gitignore
+*.log
+
+# Datos cargados (pueden ser reales)
+/sql/import_*.sql
+/sql/almacen.sql
